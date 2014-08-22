@@ -1027,6 +1027,14 @@ div.wiki pre {
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
+/* line 65, ../sass/_wiki.scss */
+div.wiki code:not([class]) {
+  background-color: #f8f8f8;
+  padding: 0 6px;
+  display: inline-block;
+  border-radius: 3px;
+  border: 1px solid #dcdcdc;
+}
 
 /* line 4, ../sass/_projects.scss */
 #projects-index ul.projects ul.projects {
